@@ -7,11 +7,11 @@
 
 int hash(char *key, int len)
 {
-    int hash = 0;
+	unsigned int hash = 0;
+	int c;
 
-    for (int i = 0; i < strlen(key); i++) {
-        hash = (hash * 31) + key[i];  // Using a prime number (31) for mixing
-    }
+	while (c = *key++)
+	    hash += c;
 
-    return hash + len;
+	return hash;
 }
