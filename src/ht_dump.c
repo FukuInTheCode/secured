@@ -9,6 +9,5 @@
 
 void ht_dump(hashtable_t *ht)
 {
-    mini_printf("PASSED\n");
     return;
 }
