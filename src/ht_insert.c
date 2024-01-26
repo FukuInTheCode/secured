@@ -19,9 +19,9 @@ static int insert_el(info_t *head, char *key, char *value, int hashed_key)
 {
     info_t *tmp = NULL;
 
-    for (info_t *info = head; info->next; info = info->next)
-        if (!my_strcmp(info->next->key, key))
-            return change_el(info->next, value);
+    for (info_t *info = head; info; info = info->next)
+        if (!my_strcmp(info->key, key))
+            return change_el(info, value);
     tmp = malloc(sizeof(info_t));
     if (!tmp)
         return 84;
