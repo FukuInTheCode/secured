@@ -33,5 +33,9 @@
     #include "hashtable.h"
 
 int my_strlen(char const *str);
+int my_pf_put_nbr(int nb, int *count);
+void my_pf_putchar(char c, int *count);
+int my_pf_putstr(char const *str, int *count);
+int mini_printf(const char *format, ...);
 
 #endif

@@ -8,8 +8,6 @@
 #ifndef HASHTABLE_H
     #define HASHTABLE_H
 
-typedef int (*func)(char *, int);
-
 typedef struct info_s {
     int key_hashed;
     char *value;
@@ -19,8 +17,7 @@ typedef struct info_s {
 
 typedef struct hashtable_s {
     int len;
-    func hash;
-    info_t *table;
+    info_t **table;
 } hashtable_t;
 
 // Hash function
