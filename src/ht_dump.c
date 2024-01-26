@@ -15,5 +15,4 @@ void ht_dump(hashtable_t *ht)
             mini_printf("> %d - %s\n", j->key_hashed, j->value);
         }
     }
-    return;
 }
