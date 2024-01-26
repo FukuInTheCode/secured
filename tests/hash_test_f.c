@@ -7,11 +7,5 @@
 
 int hash(char *key, int len)
 {
-    int hash = 0;
-
-    for (int i = 0; i < strlen(key); i++) {
-        hash = (hash * 31) + key[i];  // Using a prime number (31) for mixing
-    }
-
-    return hash + len;
+    return strlen(key) + len;
 }
