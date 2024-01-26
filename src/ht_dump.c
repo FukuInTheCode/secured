@@ -16,6 +16,8 @@ void print_in_index(hashtable_t *ht, int i, info_t *j)
 
 void ht_dump(hashtable_t *ht)
 {
+    if (!ht)
+        return;
     for (int i = 0; i != ht->len; i++) {
         mini_printf("[%d]:\n", i);
         for (info_t *j = ht->table + i; j != NULL; j = j->next) {
