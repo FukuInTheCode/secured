@@ -35,6 +35,9 @@ int main(int argc, char **argv)
 
     while (n_words < limit && fscanf(file, "%s", word) != EOF) {
         int hash_value = hash(word, hash_size);
+        printf("hash_value: %d\n", hash_value);
+        if (hash_value < 0)
+            return 84;
 
         // Check for collisions
         printf("%d -> ", hash_value);
