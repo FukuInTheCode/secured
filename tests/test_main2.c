@@ -9,6 +9,6 @@
 
 int main(int argc, char **argv)
 {
-    printf("%d, %d\n", hash("emma", 34), hash("Emma", 34));
+    printf("%d, %d\n", hash("emma", 5), hash("Emma", 5));
     return 0;
 }
