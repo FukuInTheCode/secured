@@ -9,15 +9,16 @@
 
 static int delete_list(info_t *el)
 {
-    info_t *previous = el;
+    info_t *previous = NULL;
 
-    for (info_t *tmp = el; tmp; tmp = tmp->next) {
+    for (info_t *tmp = el->next; tmp; tmp = tmp->next) {
         free(tmp->key);
         free(tmp->value);
         free(previous);
         if (tmp != el)
             previous = tmp;
     }
+    free(previous);
     return 0;
 }
 
