@@ -29,6 +29,7 @@ int ht_insert(hashtable_t *ht, char *key, char *value)
         return 84;
     hashed_key = ht->hash(key, ht->len);
     id = hashed_key % ht->len;
+    id *= ((id >= 0) - (id < 0));
     if (ht->table[id].key)
         return insert_el(ht->table + id, key, value, hashed_key);
     ht->table[id].key = my_strdup(key);
