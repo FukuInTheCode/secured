@@ -9,5 +9,12 @@
 
 int hash(char *key, int len)
 {
-    return 0;
+    int sum_key = 0;
+    int hash_key;
+
+    for (int i = 0; key[i] != '\0'; ++i) {
+        sum_key += (int)key[i];
+    }
+    hash_key = len * (sum_key + 6414) - 5987;
+    return hash_key;
 }
