@@ -7,8 +7,8 @@
 
 #include "my.h"
 
-int main(void)
+int main(int argc, char **argv)
 {
-    printf("%d, %d\n", hash("mtom", 34), hash("ntom", 34));
+    printf("%d, %d\n", hash("emma", 34), hash("Emma", 34));
     return 0;
 }

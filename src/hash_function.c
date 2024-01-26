@@ -9,17 +9,14 @@
 
 int hash(char *key, int len)
 {
-    int hash_key = 112;
-    long long int o = 1;
-    int j = 1;
+    int hashed_key = len;
+    int tenth = 1000;
 
     if (!key || len < 1)
-        return 0;
-    for (int i = 0; key[i] != '\0'; i++) {
-        hash_key += key[i] * key[i] * o * o * i * i;
-        o *= key[i] * j * hash_key;
-        o += len * my_strlen(key) * key[i];
-        j *= -1;
+        return 84;
+    for (int i = 0; key[i]; i++) {
+        hashed_key += key[i] * tenth;
+        tenth *= -10;
     }
-    return hash_key;
+    return hashed_key;
 }
