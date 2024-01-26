@@ -18,5 +18,5 @@ int hash(char *key, int len)
         hashed_key += key[i] * tenth;
         tenth *= -10;
     }
-    return hashed_key;
+    return (hashed_key ^ -1) + (hashed_key & 1);
 }
