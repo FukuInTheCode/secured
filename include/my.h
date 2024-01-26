@@ -30,5 +30,6 @@
     #include <SFML/OpenGL.h>
     #include <SFML/System.h>
     #include <SFML/Window.h>
+    #include "hashtable.h"
 
 #endif
