@@ -1,13 +1,13 @@
 /*
 ** EPITECH PROJECT, 2024
-** ht_insert.c
+** ht_delete.c
 ** File description:
-** ht_insert.c
+** ht_delete.c
 */
 
 #include "my.h"
 
-int ht_insert(hashtable_t *ht, char *key, char *value)
+int ht_delete(hashtable_t *ht, char *key)
 {
     return 84;
 }
