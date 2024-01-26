@@ -17,13 +17,14 @@ static int my_abs(int x)
 int hash(char *key, int len)
 {
     int hashed_key = len;
-    int tenth = 1000;
 
-    if (!key || len < 1)
-        return 84;
     for (int i = 0; key[i]; i++) {
-        hashed_key += key[i] * tenth;
-        tenth *= -10;
+        hashed_key += key[i];
+        hashed_key += (hashed_key << 10);
+        hashed_key ^= (hashed_key >> 6);
     }
+    hashed_key += (hashed_key << 3);
+    hashed_key ^= (hashed_key >> 11);
+    hashed_key += (hashed_key << 15);
     return my_abs(hashed_key);
 }
