@@ -53,7 +53,6 @@ int ht_delete(hashtable_t *ht, char *key)
         return 84;
     hashed_key = ht->hash(key, ht->len);
     id = hashed_key % ht->len;
-    id *= ((id >= 0) - (id < 0));
     if (!ht->table[id].value)
         return 84;
     if (my_strcmp(ht->table[id].key, key))
@@ -61,5 +60,5 @@ int ht_delete(hashtable_t *ht, char *key)
     ht->table[id].value = my_free(ht->table[id].value);
     ht->table[id].key = my_free(ht->table[id].key);
     ht->table[id].key_hashed = 0;
-    return copy_el(ht->table + id, ht->table[id]->next);
+    return copy_el(ht->table + id, ht->table[id].next);
 }
