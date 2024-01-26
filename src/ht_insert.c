@@ -7,7 +7,7 @@
 
 #include "my.h"
 
-static int insert_el(info_t *info, char *key, char *value, int hashed_value)
+static int insert_el(info_t *info, char *key, char *value, int hashed_key)
 {
     for (; info->next; info = info->next);
     info->next = malloc(sizeof(hashtable_t));
