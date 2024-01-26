@@ -16,7 +16,6 @@ int main(void)
     ht_insert(ht, "nonono", "+33 6 31 45 61 23 72");
     ht_insert(ht, "hellopipo", "+33 6 31 45 61 23 73");
     ht_dump(ht);
-    printf("Looking for \"%s\": \"%s\"\n", "Kratos", ht_search(ht, "nonono"));
-    printf("%d\n", hash("nonono", 4) % 4);
+    printf("Looking for \"%s\": \"%s\"\n", "nonono", ht_search(ht, "nonono"));
     return 0;
 }
