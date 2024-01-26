@@ -9,6 +9,6 @@
 
 int main(void)
 {
-    printf("%d, %d\n", hash("Tom", 34), hash("tom", 34));
+    printf("%d, %d\n", hash("mtom", 34), hash("ntom", 34));
     return 0;
 }
