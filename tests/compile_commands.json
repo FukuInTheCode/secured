@@ -1,0 +1,230 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/my_pf_put_nbr.o",
+      "src/my_pf_put_nbr.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/my_pf_put_nbr.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/my_pf_put_nbr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/my_pf_putstr.o",
+      "src/my_pf_putstr.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/my_pf_putstr.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/my_pf_putstr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/mini_printf.o",
+      "src/mini_printf.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/mini_printf.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/mini_printf.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/my_strdup.o",
+      "src/my_strdup.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/my_strdup.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/my_strdup.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/ht_insert.o",
+      "src/ht_insert.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/ht_insert.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/ht_insert.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/ht_create.o",
+      "src/ht_create.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/ht_create.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/ht_create.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/my_pf_putchar.o",
+      "src/my_pf_putchar.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/my_pf_putchar.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/my_pf_putchar.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/hash_function.o",
+      "src/hash_function.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/hash_function.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/hash_function.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/my_strcpy.o",
+      "src/my_strcpy.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/my_strcpy.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/my_strcpy.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/my_strlen.o",
+      "src/my_strlen.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/my_strlen.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/my_strlen.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/ht_dump.o",
+      "src/ht_dump.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/ht_dump.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/ht_dump.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/ht_search.o",
+      "src/ht_search.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/ht_search.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/ht_search.o"
+  }
+]
