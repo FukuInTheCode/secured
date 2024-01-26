@@ -9,6 +9,11 @@
 
 void ht_dump(hashtable_t *ht)
 {
-    mini_printf("PASSED\n");
+    for (int i = 0; i != ht->len; i++) {
+        mini_printf("[%d]:\n"), i;
+        for (info_t *j = ht->table; j != NULL; j = j->next) {
+            mini_printf("> %d - %s\n", j->key_hashed, j->value);
+        }
+    }
     return;
 }
