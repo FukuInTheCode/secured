@@ -26,6 +26,7 @@ char *ht_search(hashtable_t *ht, char *key)
         return NULL;
     hashed_key = ht->hash(key, ht->len);
     id = hashed_key % ht->len;
+    id *= ((id >= 0) - (id < 0));
     if (!ht->table[id].value)
         return NULL;
     if (my_strcmp(ht->table[id].key, key))
