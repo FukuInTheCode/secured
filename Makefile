@@ -5,7 +5,7 @@
 ## Placeholder
 ##
 
-NAME   = libsecured.a
+NAME   = libhashtable.a
 
 CC	   = gcc
 
