@@ -7,9 +7,18 @@
 
 #include "my.h"
 
+static int change_el(info_t *info, char *value)
+{
+    free(info->value);
+    info->value = my_strdup(value);
+    return 84 * !info->value;
+}
+
 static int insert_el(info_t *info, char *key, char *value, int hashed_key)
 {
-    for (; info->next; info = info->next);
+    for (; info->next; info = info->next)
+        if (!my_strcmp(info->next->key, key))
+            return change_el(info->next, value);
     info->next = malloc(sizeof(info_t));
     if (!info->next)
         return 84;
