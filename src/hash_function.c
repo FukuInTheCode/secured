@@ -13,6 +13,8 @@ int hash(char *key, int len)
     long long int o = 1;
     int j = 1;
 
+    if (!key)
+        return 0;
     for (int i = 0; key[i] != '\0'; i++) {
         hash_key += key[i] * o;
         o *= (112 + j + (len / my_strlen(key)));
