@@ -7,6 +7,13 @@
 
 #include "my.h"
 
+static int my_abs(int x)
+{
+    if (x < 0)
+        return -x;
+    return x;
+}
+
 int hash(char *key, int len)
 {
     int hashed_key = len;
@@ -18,5 +25,5 @@ int hash(char *key, int len)
         hashed_key += key[i] * tenth;
         tenth *= -10;
     }
-    return (hashed_key ^ -1) + (hashed_key & 1);
+    return my_abs(hashed_key);
 }
