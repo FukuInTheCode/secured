@@ -50,7 +50,7 @@ int main(int argc, char **argv)
 
     fclose(file);
 
-    printf("Number of collisions: %d, with %d words\n", collision_count, n_words);
+    printf("Number of collisions: %d, with %d words, so %.2f%%\n", collision_count, n_words, (double)collision_count / (double)n_words * 100.);
 
     return 0;
 }

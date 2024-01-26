@@ -7,5 +7,11 @@
 
 int hash(char *key, int len)
 {
-    return strlen(key) + len;
+	unsigned int hash = 0;
+	int c;
+
+	while (c = *key++)
+	    hash += c;
+
+	return hash;
 }
