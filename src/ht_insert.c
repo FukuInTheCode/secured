@@ -32,6 +32,7 @@ static int insert_el(info_t *head, char *key, char *value, int hashed_key)
     head->key = my_strdup(key);
     head->value = my_strdup(value);
     head->key_hashed = hashed_key;
+    head->next = tmp;
     return 0;
 }
 
