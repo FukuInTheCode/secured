@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/ht_insert.o",
+      "src/ht_insert.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/ht_insert.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/ht_insert.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include/",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unused-value",
+      "-Wno-sign-compare",
+      "-Wno-unused-parameter",
+      "-g",
+      "-o",
+      "obj/ht_delete.o",
+      "src/ht_delete.c"
+    ],
+    "directory": "/home/fukumi/epi/CPE/110/secured",
+    "file": "/home/fukumi/epi/CPE/110/secured/src/ht_delete.c",
+    "output": "/home/fukumi/epi/CPE/110/secured/obj/ht_delete.o"
+  }
+]
