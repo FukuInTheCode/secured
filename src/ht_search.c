@@ -9,5 +9,6 @@
 
 char *ht_search(hashtable_t *ht, char *key)
 {
+    mini_printf("test\n");
     return NULL;
 }
