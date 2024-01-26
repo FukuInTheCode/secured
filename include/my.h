@@ -32,4 +32,6 @@
     #include <SFML/Window.h>
     #include "hashtable.h"
 
+int my_strlen(char const *str);
+
 #endif
