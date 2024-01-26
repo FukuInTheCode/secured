@@ -34,7 +34,7 @@ int ht_insert(hashtable_t *ht, char *key, char *value)
     int hashed_key = 0;
     int id = 0;
 
-    if (!ht)
+    if (!ht || !key || !value || !ht->table || !ht->hash)
         return 84;
     hashed_key = ht->hash(key, ht->len);
     id = hashed_key % ht->len;
